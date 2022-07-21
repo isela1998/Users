@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  margin: 4rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.title-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.title-box h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.title-box button {
+  width: 227px;
+  height: 45px;
+  background: #555A88;
+  border: none;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.title-box button:hover {
+  cursor: pointer;
+  width: 228px;
+  height: 46px;
+}
+
+.users-box {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.user-box {
+  width: 265px;
+  height: 265px;
+  border: solid 1px lightgray;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.span-name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.span-email,
+.span-birthday {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.small-title {
+  color: lightgray;
+}
+
+.buttons-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-trash,
+.button-edit {
+  border: none;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.button-trash {
+  background: #D85D5D;
+  color: #FFFFFF;
+}
+
+.button-edit {
+  background: #F7F7F7;
+  border: solid 1px gray;
+  color: gray;
+}
+
+.button-trash:hover,
+.button-edit:hover {
+  width: 31px;
+  height: 31px;
+}
+
+.modal-title-form {
+  font-weight: 700;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.inputs-container input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: solid 1px #dee2e6;
+}
+
+.buttons-form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.button-reset {
+  width: 120px;
+  height: 35px;
+  border: solid 1px #adb5bd;
+  color: darkslategray;
+  font-size: 16px;
+  background-color: #dee2e6;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.button-reset:hover,
+.button-save:hover {
+  width: 121px;
+  height: 36px;
+}
+
+.button-save {
+  width: 120px;
+  height: 35px;
+  border: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  background-color: #555A88;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
